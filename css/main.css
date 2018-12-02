@@ -1,0 +1,110 @@
+{
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+}
+/* *::after,
+    box-sizing: inherit;
+}*/
+
+html{
+    /* font defaults */
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
+}
+body{
+    margin: 3rem;
+} 
+
+nav{
+    padding: 2rem;
+    height: 30px;
+    background-color: hsl(210, 50%, 50%);
+    word-spacing: 5rem;
+    border-bottom: 25px solid hsl(210, 51%, 20%);
+    font-weight: 100;  /* normal nao eh bold */
+}
+
+nav > a:{
+    color: hsl(210, 100%, 100%);    /* white */
+}
+
+nav > a:link{
+    color: hsl(210, 100%, 100%);    /* white */
+    font-size: 2.5rem;
+}
+nav > a:link:active{
+    color: hsl(210, 100%, 100%);    /* white */
+    font-size: 2.5rem;
+}
+
+/*
+nav > a:visited {
+  color: hsl(210, 100%, 100%);    
+}
+
+nav > a:focus {
+  border-bottom: 1px solid;
+  text-decoration: underline;
+}
+*/
+nav > a:nth-child(2){
+    text-decoration:none;
+}
+
+nav > a:nth-child(3){
+    text-decoration:none;
+}
+nav > a:nth-child(2):hover{
+    text-decoration: underline;
+}
+nav > a:nth-child(3):hover{
+    text-decoration: underline;
+}
+header{
+    padding: 2rem;
+    height: 400px;
+    background-color:hsl(210, 51%, 20%);
+    background-image: url(../img/frances-gunn-57423-unsplash.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header > h1 {
+    color: hsl(210, 42%, 20%);
+    font-size: 6rem;
+    text-shadow: hsl(360, 100%, 100%) 2px 2px 2px;
+    line-height: 6rem;
+}
+header > h2 {
+    color:hsl(210, 50%, 82%);
+    font-size: 4rem;
+    text-shadow: hsl(213, 42%, 21%) 2px 2px 2px;
+    line-height: 4rem;
+}
+
+main {
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+main > h2{
+    color:hsl(210, 44%, 61%);
+    font-size: 3rem;
+    line-height: 3rem;
+} 
+main > h3{
+    color:hsl(210, 44%, 61%);
+    font-size: 2rem; /*1.5rem;*/
+}
+main > p{
+    font-size: 1.7rem; /*1rem;*/
+    font-weight: 100;  /* normal nao eh bold */
+    line-height: 2.5rem;
+}
+main > ul{
+    font-size: 1.7rem; /*1rem;*/
+    font-weight: 100;  /* normal nao eh bold */
+    line-height: 2.5rem;
+}
